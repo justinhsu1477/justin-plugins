@@ -1,0 +1,8 @@
+{
+  "name": "backend-review",
+  "version": "0.1.0",
+  "description": "Independent fresh-context backend code reviewer (Java/Spring): concurrency & transaction correctness, layering, OWASP Top 10, and data-access security guardrails.",
+  "author": {
+    "name": "justinhsu1477"
+  }
+}

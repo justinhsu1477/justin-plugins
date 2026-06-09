@@ -1,0 +1,18 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "justin-tools",
+  "owner": {
+    "name": "justinhsu1477"
+  },
+  "metadata": {
+    "description": "Personal Claude Code plugin marketplace (test)."
+  },
+  "plugins": [
+    {
+      "name": "backend-review",
+      "source": "./plugins/backend-review",
+      "description": "Independent fresh-context code reviewer for Java/Spring backends — concurrency & transaction correctness, layering, OWASP Top 10 security, and data-access guardrails (read-only generated SQL, tenant filtering, PII masking, audit).",
+      "version": "0.1.0"
+    }
+  ]
+}
