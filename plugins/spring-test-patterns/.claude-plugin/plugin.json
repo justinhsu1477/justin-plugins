@@ -1,0 +1,8 @@
+{
+  "name": "spring-test-patterns",
+  "version": "0.1.0",
+  "description": "Convention-driven Spring Boot integration test patterns — Testcontainers + WireMock JSON fixtures with auto-registration, per-test fixture directories, @TestNamespace partitioning, and mandatory cross-tenant coverage.",
+  "author": {
+    "name": "justinhsu1477"
+  }
+}

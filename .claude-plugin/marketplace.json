@@ -13,6 +13,12 @@
       "source": "./plugins/backend-review",
       "description": "Independent fresh-context code reviewer for Java/Spring backends — concurrency & transaction correctness, layering, OWASP Top 10 security, and data-access guardrails (read-only generated SQL, tenant filtering, PII masking, audit).",
       "version": "0.1.0"
+    },
+    {
+      "name": "spring-test-patterns",
+      "source": "./plugins/spring-test-patterns",
+      "description": "Convention-driven Spring Boot integration test patterns — Testcontainers + WireMock JSON fixtures with per-test auto-registration, @TestNamespace partitioning, and mandatory cross-tenant coverage.",
+      "version": "0.1.0"
     }
   ]
 }
