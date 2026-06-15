@@ -1,0 +1,22 @@
+{
+  "extraKnownMarketplaces": {
+    "justin-tools": {
+      "source": {
+        "source": "github",
+        "repo": "justinhsu1477/justin-plugins"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "backend-review@justin-tools": true,
+    "spring-test-patterns@justin-tools": true,
+
+    "code-review@claude-plugins-official": true,
+    "security-guidance@claude-plugins-official": true,
+    "context7@claude-plugins-official": true,
+
+    "pyright-lsp@claude-plugins-official": true,
+    "typescript-lsp@claude-plugins-official": true,
+    "jdtls-lsp@claude-plugins-official": true
+  }
+}
