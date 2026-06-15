@@ -19,6 +19,12 @@
       "source": "./plugins/spring-test-patterns",
       "description": "Convention-driven Spring Boot integration test patterns — Testcontainers + WireMock JSON fixtures with per-test auto-registration, @TestNamespace partitioning, and mandatory cross-tenant coverage.",
       "version": "0.1.0"
+    },
+    {
+      "name": "dev-workflow",
+      "source": "./plugins/dev-workflow",
+      "description": "Lightweight AI-assisted development discipline: clarify spec → plan → test-first → verify with evidence. Treats AI output as untrusted and keeps a human review gate.",
+      "version": "0.1.0"
     }
   ]
 }

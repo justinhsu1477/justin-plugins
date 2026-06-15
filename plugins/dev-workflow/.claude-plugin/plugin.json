@@ -1,0 +1,8 @@
+{
+  "name": "dev-workflow",
+  "version": "0.1.0",
+  "description": "Lightweight AI-assisted development discipline: clarify spec → plan → test-first → verify with evidence. Treats AI output as untrusted and keeps a human review gate.",
+  "author": {
+    "name": "justinhsu1477"
+  }
+}
