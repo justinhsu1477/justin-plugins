@@ -45,11 +45,7 @@ git clone https://github.com/justinhsu1477/justin-plugins.git && cd justin-plugi
 bash setup.sh
 ```
 
-> ⚠️ **LSP language server 不含在內**，裝當天語言那一個即可：
-> `pip install pyright` · `npm i -g typescript-language-server typescript` · `brew install jdtls`
-> 裝完 `/reload-plugins`，再看 `/plugin` 的 **Errors** 分頁。
-
-> ⚠️ **建議先測一次**：找個丟棄資料夾跑完整流程，確認 `/plugin` 列出全部、Errors 乾淨。slug / marketplace 偶爾會變，順手 `claude plugin list --available` 對一下。
+LSP plugin 只配連線，language server binary 要另外裝（見下方「打包的官方 plugins」）。
 
 ---
 
@@ -89,6 +85,9 @@ clone + trust 這個 repo 時會一併啟用（來自內建 `claude-plugins-offi
 | `security-guidance` | 安全護欄 | 邊寫邊掃漏洞、要求修正 |
 | `code-review` | review | diff / PR 自動審查 |
 | `pyright-lsp` / `typescript-lsp` / `jdtls-lsp` | LSP | 型別檢查、跳定義、即時錯誤 |
+
+LSP plugin 只設定連線，language server binary 要自己裝對應語言那個：
+`pip install pyright` · `npm i -g typescript-language-server typescript` · `brew install jdtls`，裝完 `/reload-plugins`。
 
 ---
 
