@@ -1,0 +1,8 @@
+{
+  "name": "mcp-builder",
+  "version": "0.1.0",
+  "description": "Build high-quality MCP (Model Context Protocol) servers — agent-centric tool design, plus self-contained implementation templates and pre-ship checklists for Python (FastMCP), TypeScript, and Java/Spring AI.",
+  "author": {
+    "name": "justinhsu1477"
+  }
+}

@@ -11,6 +11,7 @@
     "backend-review@justin-tools": true,
     "spring-test-patterns@justin-tools": true,
     "dev-workflow@justin-tools": true,
+    "mcp-builder@justin-tools": true,
 
     "code-review@claude-plugins-official": true,
     "security-guidance@claude-plugins-official": true,

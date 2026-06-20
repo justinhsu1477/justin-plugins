@@ -13,7 +13,7 @@ done
 
 echo "==> My own plugins (justin-tools)…"
 claude plugin marketplace add justinhsu1477/justin-plugins 2>/dev/null || true
-for p in backend-review spring-test-patterns; do
+for p in backend-review spring-test-patterns dev-workflow mcp-builder; do
   echo "  - $p"
   claude plugin install "$p@justin-tools" 2>/dev/null || echo "    WARN: '$p' failed"
 done

@@ -25,6 +25,12 @@
       "source": "./plugins/dev-workflow",
       "description": "Lightweight AI-assisted development discipline: clarify spec → plan → test-first → verify with evidence. Treats AI output as untrusted and keeps a human review gate.",
       "version": "0.1.0"
+    },
+    {
+      "name": "mcp-builder",
+      "source": "./plugins/mcp-builder",
+      "description": "Build high-quality MCP servers — agent-centric tool design plus self-contained Python (FastMCP), TypeScript, and Java/Spring AI templates, a /new-mcp-server command, and pre-ship checklists.",
+      "version": "0.1.0"
     }
   ]
 }
